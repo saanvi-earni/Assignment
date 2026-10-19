@@ -1,0 +1,22 @@
+//Loan approval
+#include<stdio.h>
+int main()
+{
+  int a,mi,cs;
+  printf("Enter the age,monthly salary,credit score of the person");
+  scanf("%d%d%d",&a,&mi,&cs);
+  if(a>21 && a<60)
+    {
+      if(mi>=25000)
+        {
+          if(cs>=700)
+          printf("\nLoan Approved");
+          else 
+          printf("\nLoan rejected as Credit score is less than 700");
+        }
+      else
+      printf("\nLoan rejected as income is below 25000");
+    }
+  else
+  printf("\nLaon rejected as age is not between 21 and 60");   
+}
