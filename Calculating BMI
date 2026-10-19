@@ -1,0 +1,18 @@
+//Calculate BMI
+#include<stdio.h>
+int main()
+{
+  float w,h,BMI;
+  printf(""Enter the weight and height of the person");
+  scanf("%f%f",&w,&h);
+  BMI=w/(h*h);
+  printf("BMI=%f",BMI);
+  if(BMI<18.5)
+  printf("Underweight");
+  else if(BMI>18.5 && BMI<25)
+  printf("Normal");
+  else if(BMI>25 && BMI<30)
+  printf("Over weight");
+  else
+  printf("Obese");
+}
