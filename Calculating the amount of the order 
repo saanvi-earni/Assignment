@@ -31,11 +31,11 @@ else
 { 
   
     {
-      printf("\nDelivery Charges Applied");
-      del=50;
-      dis=0;
-      t=a-dis+del;
-      printf("\nTotal amount:%d",t);
+     printf("\nDelivery Charges Applied");
+     del=50;
+     dis=0;
+     t=a-dis+del;
+     printf("\nTotal amount:%d",t);
     } 
 }
 }
