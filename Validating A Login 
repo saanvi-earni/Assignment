@@ -1,0 +1,17 @@
+//validating a login
+#include<stdio.h>
+int main()
+{
+  int I,p;
+  printf("Enter the ID and password");
+  scanf("%d%d",&I,&p);
+  if(I==101)
+    {
+      if(p==4321)
+      printf("\nLogin Sucessful");
+      else 
+      printf("\nIncorrect Password");
+    } 
+  else
+  printf("\nUser not found "); 
+}  
