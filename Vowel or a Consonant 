@@ -1,0 +1,12 @@
+//Checking If the letter is a Vowel or Not
+#include<stdio.h>
+int main()
+{ 
+  char c;
+  printf("Enter the letter ");
+  scanf("%c",&c);
+  if(c =='a' || c =='e' || c =='i' || c =='o' || c =='u' || c =='A' || c =='E' || c =='I' || c =='O' || c =='U')
+  printf("\nThe letter is a Vowel");
+  else 
+  printf("\nThe letter is a Consonant");
+}
