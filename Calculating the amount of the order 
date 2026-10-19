@@ -1,0 +1,44 @@
+//final amount of the order 
+#include<stdio.h>
+int main()
+{
+int a,dis,del,m,t;
+printf("\nEnter the type of membership 0 for regular,1 for premium");
+scanf("%d",&m);
+printf("\nEnter the amount of the order");
+scanf("%d",&a);
+
+if(a>=500)
+{
+  if(m==1)
+    {
+      printf("\nFree Delivery");
+      del=0;
+      dis=(10*a)/100;
+      t=a-dis+del;
+      printf("\nTotal amount:%d",t);
+    } 
+   else
+    {
+      printf("\n Free Delivery ");
+      del=0;
+      dis=0;
+      t=a-dis+del;
+      printf("\nTotal amount:%d",t);
+    } 
+}   
+else
+{ 
+  
+    {
+      printf("\nDelivery Charges Applied");
+      del=50;
+      dis=0;
+      t=a-dis+del;
+      printf("\nTotal amount:%d",t);
+    } 
+}
+}
+  
+ 
+      
