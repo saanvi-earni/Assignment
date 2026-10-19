@@ -1,0 +1,22 @@
+//Grade of a Student 
+#include<stdio.h>
+int main()
+{
+  int n;
+  printf("Enter the marks of the student");
+  scanf("%d",&n);
+  if(n>=90 && n<=100)
+  printf("\nGrade if 'O'");
+  else if(n>79 && n<90)
+  printf("\nGrade is 'A+'");
+  else if(n>69 && n<80)
+  printf("\nGrade is 'A'");
+  else if(n>59 && n<70)
+  printf("\nGrade is 'B'");
+  else if(n>49 && n<60)
+  printf("\nGrade is 'C'");
+  else if(n<0 || n>100)
+  printf("\nInvalid Marks");
+  else
+  printf("Failed");
+}
